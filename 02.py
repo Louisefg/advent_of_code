@@ -51,7 +51,14 @@ def main1(L):
 
 
 
+print('*********************')
+print('       PART ONE      ')
+print('*********************\n')
+print('First invalid IDs:', main1(L),'\n')
 
+
+
+# ######### Part two
 
 def get_N_digits(a):
     return int(np.log10(a)) + 1
@@ -97,20 +104,6 @@ def get_L(a,b,n):
     
     return L
         
-
-
-
-
-print('*********************')
-print('       PART ONE      ')
-print('*********************\n')
-print('First invalid IDs:', main1(L),'\n')
-
-
-
-# ######### Part two
-
-
 
 invalids_ID = list()
 for (a,b) in L:
